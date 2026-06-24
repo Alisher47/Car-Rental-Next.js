@@ -1,8 +1,8 @@
-import Image from "next/image";
-import SignUp from "./public-layouts/sign-up/page";
+
+import LandingPage from "./public-layouts/landing-page";
 
 export default function Home() {
   return (
-   <SignUp />
+    <LandingPage />
   );
 }
